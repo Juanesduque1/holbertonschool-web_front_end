@@ -350,8 +350,11 @@
 /*# sourceMappingURL=normalize.min.css.map */
 
 /* Stylesheet for the index.html file */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
 html {
-    box-sizing: content-box;
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
@@ -415,8 +418,9 @@ a:active {
 }
 
 .container {
-    width: 960;
-    margin: auto;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 :root {
