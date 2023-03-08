@@ -394,34 +394,21 @@ a:active {
     display: none;
 }
 
-.section {
-    padding-left: var(--section-padding);
-    padding-right: var(--section-padding);
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
+.section{
+  padding: var(--section-padding);
 }
 
 .section-header {
-    text-align: var(--section-header-align);
-    padding-left: var(--section-header-padding);
-    padding-right: var(--section-header-padding);
-    padding-top: var(--section-header-padding);
-    padding-bottom: var(--section-header-padding);
+  text-align: var(--section-header-align);
+  padding: var(--section-header-padding);
 }
 
-.section-body {
-    padding-left: var(--section-body-padding);
-    padding-right: var(--section-body-padding);
-    padding-top: var(--section-body-padding);
-    padding-bottom: var(--section-body-padding);
+.section-body{
+  padding: var(--section-body-padding);
 }
-
-.section-footer {
-    text-align: var(--section-footer-align);
-    padding-left: var(--section-footer-padding);
-    padding-right: var(--section-footer-padding);
-    padding-top: var(--section-footer-padding);
-    padding-bottom: var(--section-footer-padding);
+.section-footer{
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);  
 }
 
 .card-category {
@@ -481,8 +468,5 @@ a:active {
 }
 
 .footer {
-    padding-left: var(--footer-padding);
-    padding-right: var(--footer-padding);
-    padding-top: var(--footer-padding);
-    padding-bottom: var(--footer-padding);
+    padding: var(--footer-padding);
 }

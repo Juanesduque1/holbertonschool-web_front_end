@@ -684,7 +684,7 @@ header {
     height: 0.2rem;
 }
 
-.nav .nav.item:hover .nav-link::before {
+.nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }

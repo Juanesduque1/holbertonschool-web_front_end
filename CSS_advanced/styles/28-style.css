@@ -659,7 +659,7 @@ ul.footer {
     padding: 10rem 40rem 2rem 0;
 }
 
-header {
+.header {
     padding: var(--header-padding);
 }
 
